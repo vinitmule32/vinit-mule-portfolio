@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinit Mule - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F5F5F5;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #00b4d8, #0077b6);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.8rem;
+            font-weight: bold;
+        }
+
+        header p {
+            margin: 0.5rem 0 0;
+            font-size: 1.3rem;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #0096c7;
+            padding: 1rem 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 2rem;
+            font-weight: 600;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .section {
+            margin-bottom: 3rem;
+        }
+
+        .section h2 {
+            margin-bottom: 1.5rem;
+            color: #0077b6;
+            font-size: 2rem;
+        }
+
+        .resume, .certifications, .contact {
+            background: white;
+            border-radius: 10px;
+            padding: 1.8rem;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.5rem 0;
+            background-color: #0077b6;
+            color: white;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 0.7rem 1.4rem;
+            background-color: #00b4d8;
+            color: white;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .button:hover {
+            background-color: #0096c7;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vinit Mule</h1>
+        <p>3rd Year BE Student | Aspiring IT Professional</p>
+    </header>
+
+    <nav>
+        <a href="#resume">Resume</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <!-- Content Row for Resume and Certifications -->
+        <div class="content-row" style="display: flex; justify-content: space-between;">
+            <!-- Resume Section -->
+            <div class="section" id="resume" style="flex: 1; margin-right: 1rem;">
+                <h2>Resume</h2>
+                <div>
+                    <a class="button" href="resume.pdf" download>Download Resume</a>
+                </div>
+            </div>
+
+            <!-- Certifications Section -->
+            <div class="section" id="certifications" style="flex: 1; margin-left: 1rem;">
+                <h2>Certifications</h2>
+                <div>
+                    <ul>
+                        <li><strong>SkyScanner Certificate:</strong>
+                            <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/skoQmxqhtgWmKv2pm/km4rw7dihDr3etqom_skoQmxqhtgWmKv2pm_PDHy8n3GW4ia36p94_1736160957998_completion_certificate.pdf"
+                                target="_blank">View Certificate</a>
+                        </li>
+                        <li><strong>Accenture Certificate:</strong>
+                            <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/ovyvuqqNRQKBjNxbj/3xnZEj9kfpoQKW885_ovyvuqqNRQKBjNxbj_PDHy8n3GW4ia36p94_1734942031928_completion_certificate.pdf"
+                                target="_blank">View Certificate</a>
+                        </li>
+                        <li><strong>Goldman Sachs Certificate:</strong>
+                            <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/MBA4MnZTNFEoJZGnk/NPdeQ43o8P9HJmJzg_MBA4MnZTNFEoJZGnk_PDHy8n3GW4ia36p94_1734942915532_completion_certificate.pdf"
+                                target="_blank">View Certificate</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="section" id="contact">
+            <h2>Contact</h2>
+            <div>
+                <p><strong>Email:</strong> vinitmule32@gmail.com</p>
+                <p><strong>Mobile:</strong> 9325378553</p>
+                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/vinit-mule-42ab4125b/" target="_blank">View Profile</a></p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 Vinit Mule. All rights reserved.</p>
+    </footer>
+</body>
+</html>
